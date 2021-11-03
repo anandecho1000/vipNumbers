@@ -1,0 +1,40 @@
+body{
+  margin:0;
+  paddng:0;
+}
+.card{
+  box-shadow:0 0 10px rgba(0,0,0,.1);
+}
+.p1{
+  padding: 1rem;
+}
+.m1{
+  margin:1rem;
+}
+.nav{
+display: flex;
+}
+.about-us{
+  background-image: url('https://i.pinimg.com/originals/a8/62/76/a862769367328be8c5cf53d2303aafd0.jpg');
+  background-position:center;
+  background-attachment: fixed;
+  width:auto;
+  height:90vh;
+  background-size: 100%;
+  text-align:center;
+  margin-top:5px;
+}
+.logo-image{
+  background:#fff;
+  width:clamp(200px,300px, 400px);
+}
+.about-us-heading{
+  padding:10;
+}
+.navbar-brand{
+  background-image:url('https://www.vipnumbershop.com/static/images/vip_logo.png');
+  background-size:auto 100%;
+  background-repeat: no-repeat;
+  width:120px;
+  height:4rem;
+}
